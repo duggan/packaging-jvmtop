@@ -1,0 +1,18 @@
+Source: jvmtop
+Section: java
+Priority: optional
+Maintainer: Engine Yard Packaging <packaging@engineyard.com>
+Uploaders: Ross Duggan <rduggan@engineyard.com>
+Build-Depends: debhelper (>= 7), javahelper, default-jdk, ant, ant-optional
+Standards-Version: 3.9.1
+Homepage: https://code.google.com/p/jvmtop/
+Vcs-Git: http://code.google.com/p/jvmtop/
+Vcs-Browser: https://code.google.com/p/jvmtop/source/browse/
+
+Package: jvmtop
+Architecture: all
+Depends: ${misc:Depends}, ${java:Depends}
+Description: Java monitoring for the command-line
+ Jvmtop is a lightweight console application to monitor all accessible,
+ running jvms on a machine. In a top-like manner, it displays JVM
+ internal metrics (e.g. memory information) of running java processes.

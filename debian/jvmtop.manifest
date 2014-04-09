@@ -1,0 +1,3 @@
+usr/share/java/jvmtop.jar:
+ Main-Class: com.jvmtop.JvmTop
+ Class-Path: /usr/lib/jvm/default-java/lib/tools.jar

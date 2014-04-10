@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-JAVA_HOME=/usr/lib/jvm/default-java
-CLASSPATH=/usr/share/java/jopt-simple.jar
+export JAVA_HOME=/usr/lib/jvm/default-java
+export CLASSPATH=/usr/share/java/jopt-simple.jar
 
 %:
 	dh $@ --with javahelper

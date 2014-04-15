@@ -11,7 +11,7 @@ Vcs-Browser: https://code.google.com/p/jvmtop/source/browse/
 
 Package: jvmtop
 Architecture: all
-Depends: ${misc:Depends}, ${java:Depends}
+Depends: oracle-java7-jdk, jarwrapper
 Description: Java monitoring for the command-line
  Jvmtop is a lightweight console application to monitor all accessible,
  running jvms on a machine. In a top-like manner, it displays JVM
